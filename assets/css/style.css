@@ -8435,3 +8435,11 @@ line-height: 1.67;
 	margin-top:16px;
 }
 
+/* Footer Section */
+.icon-color{
+  color: #ffffff;
+}
+.icon-color:hover{
+  color: #f7b500;
+}
+
