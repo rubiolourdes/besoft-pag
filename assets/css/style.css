@@ -8415,3 +8415,12 @@ a.text-dark:hover, a.text-dark:focus {
 .my-float{
 	margin-top:16px;
 }
+
+/* Footer Section */
+.icon-color{
+  color: #ffffff;
+}
+.icon-color:hover{
+  color: #f7b500;
+}
+
