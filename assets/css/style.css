@@ -7543,11 +7543,18 @@ a.text-dark:hover, a.text-dark:focus {
 
 .oleez-landing-section-about .landing-about-content {
   margin-top: 5%;
-  margin-bottom: 15%;
+  padding-bottom: 5%;
  }
 
-.landing-div-detail{
-  padding-bottom: 10%;
+ .landing-div-detail{
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-div-detail h5{
+  text-align: center;
 }
 
 .oleez-landing-section-about .landing-about-feature .about-feature-icon {
