@@ -7542,10 +7542,17 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 1.67; }
 
 .oleez-landing-section-about .landing-about-content {
-  margin-bottom: 70px; }
+  margin-top: 5%;
+  margin-bottom: 15%;
+ }
+
+.landing-div-detail{
+  padding-bottom: 10%;
+}
 
 .oleez-landing-section-about .landing-about-feature .about-feature-icon {
-  margin-bottom: 45px; }
+  margin-bottom: 2%; 
+}
 
 .oleez-landing-section-about .landing-about-feature .about-feature-title {
   line-height: 1.1;
