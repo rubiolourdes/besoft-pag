@@ -7486,7 +7486,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .oleez-landing-section {
   padding-top: 130px;
-  padding-bottom: 125px; }
+  padding-bottom: 100px; }
   .oleez-landing-section:nth-child(odd) {
     background-color: #f8f4eb; }
     .oleez-landing-section:nth-child(odd) .oleez-landing-section-content .oleez-landing-section-verticals::after {
@@ -7542,10 +7542,24 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 1.67; }
 
 .oleez-landing-section-about .landing-about-content {
-  margin-bottom: 70px; }
+  margin-top: 5%;
+  padding-bottom: 5%;
+ }
+
+ .landing-div-detail{
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-div-detail h5{
+  text-align: center;
+}
 
 .oleez-landing-section-about .landing-about-feature .about-feature-icon {
-  margin-bottom: 45px; }
+  margin-bottom: 2%; 
+}
 
 .oleez-landing-section-about .landing-about-feature .about-feature-title {
   line-height: 1.1;
