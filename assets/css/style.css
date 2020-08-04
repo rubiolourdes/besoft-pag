@@ -7418,14 +7418,14 @@ a.text-dark:hover, a.text-dark:focus {
       line-height: 1.29; }
 
 .oleez-landing-carousel .carousel-item {
-  padding-left: 212px; }
+  padding-left: 80px; }
   @media (max-width: 767px) {
     .oleez-landing-carousel .carousel-item {
       min-height: 50vh; } }
   @media (max-width: 400px) {
     .oleez-landing-carousel .carousel-item {
       min-height: 350px;
-      padding-left: 162px; } }
+      padding-left: 80px; } }
   @media (max-width: 767px) {
     .oleez-landing-carousel .carousel-item img {
       height: 50vh;
@@ -7449,6 +7449,13 @@ a.text-dark:hover, a.text-dark:focus {
       font-weight: 700;
       line-height: 1.8;
       color: #100e0e; }
+      @media (max-width: 767px) {
+        .oleez-landing-carousel .carousel-item .carousel-caption h2 {
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 0.8;
+          color: #100e0e;}
+      }
       @media (max-width: 400px) {
         .oleez-landing-carousel .carousel-item .carousel-caption h2 {
           font-size: 35px; } }
@@ -7485,8 +7492,8 @@ a.text-dark:hover, a.text-dark:focus {
           transform: translateX(5px); }
 
 .oleez-landing-section {
-  padding-top: 130px;
-  padding-bottom: 100px; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
   .oleez-landing-section:nth-child(odd) {
     background-color: #f8f4eb; }
     .oleez-landing-section:nth-child(odd) .oleez-landing-section-content .oleez-landing-section-verticals::after {
@@ -8458,3 +8465,10 @@ line-height: 1.67;
 .icon-color:hover{
   color: #f7b500;
 }
+
+.imagen-contacto{
+  width: 525px; 
+  padding-top: 20px;
+}
+
+
