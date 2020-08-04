@@ -2,7 +2,7 @@
 ini_set( 'display_errors', 1 );
 error_reporting( E_ALL );
 $remitente = $_POST['email'];
-$destinatario = ''; // en esta línea va el mail del destinatario.
+$destinatario = 'softwarebesoft@gmail.com'; // en esta línea va el mail del destinatario.
 $asunto = "Consulta BeSoft"; // acá se puede modificar el asunto del mail
 if (!$_POST){
 ?>
